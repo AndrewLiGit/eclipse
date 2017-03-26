@@ -1,0 +1,15 @@
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.test">
+	<class name="RobinProduct" table="robin_product">
+		<id name="id" type="integer">
+			<generator class="sequence">
+				<param name="sequence">rp_id</param>
+			</generator>
+		</id>
+		<property name="name" type="string"></property>
+		<property name="price" type="integer"></property>
+		<property name="count" type="integer"></property>
+	</class>
+</hibernate-mapping>

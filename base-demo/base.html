@@ -1,0 +1,26 @@
+<HTML>
+	<head>
+		<title>编码/解码器</title>
+		<SCRIPT type=text/javascript src="Base64.js"></SCRIPT>
+	</head>
+	<BODY>
+		<center>
+			<h3>编码/解码器</h3>
+			<form id="form1" name="form1" method="post" action="">
+				<p class="medium">
+					<br />
+					请输入要进行编码或解码的字符：
+				</p >
+				<textarea name="src" id="src" cols="80" rows="6" style="width:600px;height:120px;"></textarea>
+				<p class="tcenter">
+					<input onclick="doEncode();" type="button" value="编码" name="encode" class="button"/>
+					&nbsp;
+					<input onclick="doDecode();" type="button" value="解码" name="decode" class="button"/>
+					<label><input type="checkbox" value="hex" name="opt" id="opt"> 解码结果以16进制显示</label>
+				</p >
+				<p class="medium">编码或解码结果：</p >
+				<textarea name="dest" id="dest" cols="80" rows="6" style="width:600px;height:120px;"></textarea>
+			</form>
+		</center>
+	</BODY>
+</HTML>

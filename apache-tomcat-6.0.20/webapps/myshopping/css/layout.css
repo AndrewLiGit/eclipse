@@ -1,0 +1,130 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	text-align: center;
+}
+
+#container {
+	margin: 0 auto;
+	width: 780px;
+	background-color: #999;
+}
+
+#footer {
+	height: 120px;
+	background-color: #000;
+	color: #FFF;
+}
+
+#header {
+	background-color: #000;
+	overflow: auto;
+}
+
+#header div {
+	background-color: #0F0;
+	margin: 5px 0;
+}
+
+#header #logo {
+	width: 30%;
+	float: left;
+	height: 80px;
+}
+
+#header #login {
+	width: 69%;
+	margin: 5px 0 0 5px;
+	float: left;
+	height: 80px;
+	text-align: right;
+}
+
+#center {
+	height: 2000px;
+}
+
+#center #left  {
+	float: left;
+	width:30%;
+}
+
+#center #left img {
+	width:200px;
+	height:200px;
+	border: 1px solid gray;
+	margin: 5px;
+}
+
+
+#center #right {
+	float: left;
+	width:70%;
+}
+
+#center #right ul {
+	list-style-type: none;
+	text-align: left;
+	margin: 5px;
+}
+
+#center #right ul li.title1 {
+	height:30px;
+	font:bolder 20px/30px '微软雅黑';
+	color:blue;
+}
+
+#center #right ul li.desc1 {
+	border-bottom: 2px solid black;
+	width:150px;
+}
+
+
+
+#adv1 {
+	height: 120px;
+	background-color: #F00;
+}
+
+#prolist {
+	height: 400px;
+	width: 69%;
+	float: left;
+	border: 1px solid #0F0;
+}
+
+#comments {
+	height: 400px;
+	width: 30%;
+	float: left;
+	border: 1px solid #00F;
+}
+
+#prolist dl {
+	float: left;
+	margin: 5px;
+	width: 100px;
+	height: 190px;
+	border: 1px solid #F00;
+}
+
+#prolist dl dd ul {
+	list-style: none;
+	margin-top: 10px;
+	
+}
+
+#prolist dl dd ul li {
+	height: 30px;
+}
+
+#prolist dl dd ul li a {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background-color: #00F;
+	color: #FFF;
+}
